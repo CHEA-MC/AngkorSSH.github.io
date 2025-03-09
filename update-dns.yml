@@ -1,0 +1,19 @@
+name: Update Cloudflare DNS
+
+on:
+  schedule:
+    - cron: '*/1 * * * *' # Run every 1 minute
+
+jobs:
+  update-dns:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update DNS Record
+        run: |
+          curl -X PUT "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$DNS_RECORD_ID" \
+               -H "Authorization: Bearer ${{ secrets.CF_API_TOKEN }}" \
+               -H "Content-Type: application/json" \
+               --data "{\"type\":\"A\",\"name\":\"auto.premium.ip.angkorssh.my.id\",\"content\":\"$RANDOM_IP\",\"ttl\":60,\"proxied\":false}"
