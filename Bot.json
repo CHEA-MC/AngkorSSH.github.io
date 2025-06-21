@@ -1,14 +1,22 @@
-[
-  {
-    "type": "vless",
-    "config": "vless://xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx@example.com:443?security=tls&sni=example.com#MyVlessConfig1"
-  },
-  {
-    "type": "vmess",
-    "config": "vmess://eyAidmFzcCBl............."
-  },
-  {
-    "type": "vless",
-    "config": "vless://yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy@example.com:443?security=tls&sni=example.com#MyVlessConfig2"
-  }
-]
+{
+  "Metfone": [
+    {
+      "type": "vless",
+      "config": "vless://METFONE-CONFIG-NUM-1-xxxxxxxx@example.com:443?#Metfone-1"
+    },
+    {
+      "type": "vmess",
+      "config": "vmess://METFONE-CONFIG-NUM-2-yyyyyyyy"
+    }
+  ],
+  "Smart Service": [
+    {
+      "type": "vless",
+      "config": "vless://SMART-CONFIG-NUM-1-zzzzzzzz@example.com:443?#Smart-1"
+    },
+    {
+      "type": "vmess",
+      "config": "vmess://SMART-CONFIG-NUM-2-aaaaaaaa"
+    }
+  ]
+}
