@@ -1,22 +1,19 @@
 {
+  "vip_users": [
+    392836663,
+    987654321,
+    555666777
+  ],
   "Metfone": [
     {
       "type": "vless",
       "config": "vless://METFONE-CONFIG-NUM-1-xxxxxxxx@example.com:443?#Metfone-1"
-    },
-    {
-      "type": "vmess",
-      "config": "vmess://METFONE-CONFIG-NUM-2-yyyyyyyy"
     }
   ],
   "Smart Service": [
     {
       "type": "vless",
       "config": "vless://SMART-CONFIG-NUM-1-zzzzzzzz@example.com:443?#Smart-1"
-    },
-    {
-      "type": "vmess",
-      "config": "vmess://SMART-CONFIG-NUM-2-aaaaaaaa"
     }
   ]
 }
