@@ -1,19 +1,42 @@
 {
-  "vip_users": [
+  "vip_user_ids": [
     5039150238,
-    5039150238,
-    5039150238
+    987654321,
+    555666777
   ],
-  "Metfone": [
-    {
-      "type": "vless",
-      "config": "vless://METFONE-CONFIG-NUM-1-xxxxxxxx@example.com:443?#Metfone-1"
+  "pools": {
+    "regular": {
+      "Metfone": {
+        "VLESS": [
+          { "config": "vless://REGULAR-USER-METFONE-VLESS-CONFIG-1..." }
+        ],
+        "VMESS": [
+          { "config": "vmess://REGULAR-USER-METFONE-VMESS-CONFIG-1..." }
+        ]
+      },
+      "Smart Service": {
+        "VLESS": [
+          { "config": "vless://REGULAR-USER-SMART-VLESS-CONFIG-1..." }
+        ]
+      }
+    },
+    "vip": {
+      "Metfone": {
+        "VLESS": [
+          { "config": "vless://VIP-USER-METFONE-VLESS-CONFIG-1..." }
+        ],
+        "VMESS": [
+          { "config": "vmess://VIP-USER-METFONE-VMESS-CONFIG-1..." }
+        ]
+      },
+      "Smart Service": {
+        "VLESS": [
+          { "config": "vless://VIP-USER-SMART-VLESS-CONFIG-1..." }
+        ],
+         "VMESS": [
+          { "config": "vmess://VIP-USER-SMART-VMESS-CONFIG-1..." }
+        ]
+      }
     }
-  ],
-  "Smart Service": [
-    {
-      "type": "vless",
-      "config": "vless://SMART-CONFIG-NUM-1-zzzzzzzz@example.com:443?#Smart-1"
-    }
-  ]
+  }
 }
