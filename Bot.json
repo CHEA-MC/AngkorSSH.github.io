@@ -1,40 +1,45 @@
 {
   "vip_user_ids": [
     5039150238,
-    987654321,
-    555666777
+    222222222,
+    123456789
   ],
   "pools": {
     "regular": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://REGULAR-USER-METFONE-VLESS-CONFIG-1..." }
+          { "config": "vless://regular-metfone-vless-uuid-01@test.com:443?#REG-Metfone-VLESS-1" },
+          { "config": "vless://regular-metfone-vless-uuid-02@test.com:443?#REG-Metfone-VLESS-2" }
         ],
         "VMESS": [
-          { "config": "vmess://REGULAR-USER-METFONE-VMESS-CONFIG-1..." }
+          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiUkVHLU1ldGZvbmUtVk1FU1MtMSIsICJhZGQiOiAidGVzdC5jb20iCn0=" }
         ]
       },
       "Smart Service": {
         "VLESS": [
-          { "config": "vless://REGULAR-USER-SMART-VLESS-CONFIG-1..." }
+          { "config": "vless://regular-smart-vless-uuid-03@test.com:443?#REG-Smart-VLESS-1" }
+        ],
+        "VMESS": [
+           { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiUkVHLVNtYXJ0LVZNRVNTLTEiLCAiYWRkIjogInRlc3QuY29tIgp9" }
         ]
       }
     },
     "vip": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://VIP-USER-METFONE-VLESS-CONFIG-1..." }
+          { "config": "vless://VIP-metfone-vless-uuid-04@premium.com:443?#VIP-Metfone-VLESS-1" }
         ],
         "VMESS": [
-          { "config": "vmess://VIP-USER-METFONE-VMESS-CONFIG-1..." }
+          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLU1ldGZvbmUtVk1FU1MtMSIsICJhZGQiOiAicHJlbWl1bS5jb20iCn0=" }
         ]
       },
       "Smart Service": {
         "VLESS": [
-          { "config": "vless://VIP-USER-SMART-VLESS-CONFIG-1..." }
+          { "config": "vless://VIP-smart-vless-uuid-05@premium.com:443?#VIP-Smart-VLESS-1" },
+          { "config": "vless://VIP-smart-vless-uuid-06@premium.com:443?#VIP-Smart-VLESS-2" }
         ],
          "VMESS": [
-          { "config": "vmess://VIP-USER-SMART-VMESS-CONFIG-1..." }
+          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLVNtYXJ0LVZNRVNTLTEiLCAiYWRkIjogInByZW1pdW0uY29tIgp9" }
         ]
       }
     }
