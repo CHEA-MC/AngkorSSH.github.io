@@ -1,0 +1,14 @@
+[
+  {
+    "type": "vless",
+    "config": "vless://xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx@example.com:443?security=tls&sni=example.com#MyVlessConfig1"
+  },
+  {
+    "type": "vmess",
+    "config": "vmess://eyAidmFzcCBl............."
+  },
+  {
+    "type": "vless",
+    "config": "vless://yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy@example.com:443?security=tls&sni=example.com#MyVlessConfig2"
+  }
+]
