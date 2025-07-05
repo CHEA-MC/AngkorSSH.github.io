@@ -8,40 +8,34 @@
     "regular": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://regular-metfone-vless-uuid-01@test.com:443?#REG-Metfone-VLESS-1" },
-          { "config": "vless://regular-metfone-vless-uuid-02@test.com:443?#REG-Metfone-VLESS-2" }
-        ],
-        "VMESS": [
-          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiUkVHLU1ldGZvbmUtVk1FU1MtMSIsICJhZGQiOiAidGVzdC5jb20iCn0=" }
+          { "config": "vless://REGULAR-METFONE-VLESS-1..." }
         ]
       },
       "Smart Service": {
         "VLESS": [
-          { "config": "vless://regular-smart-vless-uuid-03@test.com:443?#REG-Smart-VLESS-1" }
-        ],
-        "VMESS": [
-           { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiUkVHLVNtYXJ0LVZNRVNTLTEiLCAiYWRkIjogInRlc3QuY29tIgp9" }
+          { "config": "vless://REGULAR-SMART-VLESS-1..." }
         ]
       }
     },
     "vip": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://VIP-metfone-vless-uuid-04@premium.com:443?#VIP-Metfone-VLESS-1" }
-        ],
-        "VMESS": [
-          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLU1ldGZvbmUtVk1FU1MtMSIsICJhZGQiOiAicHJlbWl1bS5jb20iCn0=" }
+          { "config": "vless://VIP-GENERAL-METFONE-VLESS-1..." }
         ]
       },
       "Smart Service": {
-        "VLESS": [
-          { "config": "vless://VIP-smart-vless-uuid-05@premium.com:443?#VIP-Smart-VLESS-1" },
-          { "config": "vless://VIP-smart-vless-uuid-06@premium.com:443?#VIP-Smart-VLESS-2" }
-        ],
-         "VMESS": [
-          { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLVNtYXJ0LVZNRVNTLTEiLCAiYWRkIjogInByZW1pdW0uY29tIgp9" }
+        "VMESS": [
+          { "config": "vmess://VIP-GENERAL-SMART-VMESS-1..." }
         ]
       }
+    },
+    "gcp": {
+      "VLESS": [
+        { "config": "vless://VIP-GCP-VLESS-CONFIG-01..." }
+      ],
+      "VMESS": [
+        { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLUdDUC1WTUVTUy0wMSIKfQ==" }
+      ]
     }
   }
 }
