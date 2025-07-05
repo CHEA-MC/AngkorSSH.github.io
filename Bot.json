@@ -1,14 +1,14 @@
 {
   "vip_user_ids": [
     5039150238,
-    222222222,
+    5856524876,
     123456789
   ],
   "pools": {
     "regular": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://REGULAR-METFONE-VLESS-1..." }
+          { "config": "vless://0b903128-cf94-42bd-9521-8b1d5d101764@104.16.125.32:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=drift-aurora-586.f1914759.workers.dev&type=ws#Metfone_ServerFree" }
         ]
       },
       "Smart Service": {
@@ -20,7 +20,7 @@
     "vip": {
       "Metfone": {
         "VLESS": [
-          { "config": "vless://VIP-GENERAL-METFONE-VLESS-1..." }
+          { "config": "vless://342abef4-0371-4056-f5de-d0207423924a@104.16.125.32:80?path=%2F&security=none&encryption=none&host=ultra.ovpn.space&type=ws#SG VIP CF" }
         ]
       },
       "Smart Service": {
@@ -31,10 +31,13 @@
     },
     "gcp": {
       "VLESS": [
-        { "config": "vless://VIP-GCP-VLESS-CONFIG-01..." }
+        { "config": "vless://36459fd0-0c89-4733-b20e-067ffc341bd2@firebaseremoteconfig.googleapis.com:443?path=%2FTG-%40Not_Ragnar&security=tls&encryption=none&host=htet-aung-mc666-435737282244.europe-west1.run.app&type=ws&sni=htet-aung-mc666-435737282244.europe-west1.run.app#GCP VIP" }
+      ],
+      "VLESS": [
+        { "config": "vless://36459fd0-0c89-4733-b20e-067ffc341bd2@firebaseremoteconfig.googleapis.com:443?path=%2F%40Cheaofficial&security=tls&encryption=none&host=cheaofficial-100927473356.asia-east2.run.app&type=ws&sni=cheaofficial-100927473356.asia-east2.run.app#GCP%20VIP" }
       ],
       "VMESS": [
-        { "config": "vmess://ewogICJ2IjogIjIiLCAicHMiOiAiVklQLUdDUC1WTUVTUy0wMSIKfQ==" }
+        { "config": "Sorry" }
       ]
     }
   }
