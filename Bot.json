@@ -1,45 +1,34 @@
 {
-  "vip_user_ids": [
-    5039150238,
-    5856524876,
-    5549600755,
-    1234567890
-  ],
-  "pools": {
-    "regular": {
-      "Metfone": {
-        "VLESS": [
-          { "config": "vless://0b903128-cf94-42bd-9521-8b1d5d101764@104.16.125.32:8880?path=%2F%3Fed%3D2560&security=none&encryption=none&host=drift-aurora-586.f1914759.workers.dev&type=ws#Metfone_ServerFree" }
-        ]
-      },
-      "Smart Service": {
-        "VLESS": [
-          { "config": "vless://REGULAR-SMART-VLESS-1..." }
-        ]
-      }
+  "Vmess": [
+    {
+      "name": "🇸🇬 Singapore VMESS Server 1",
+      "config": "vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJTaW5nYXBvcmUgVk1FU1MgU2VydmVyIDEiLAogICJhZGQiOiAic2cxLnNlcnZlci5leGFtcGxlLmNvbSIsCiAgInBvcnQiOiAiNDQzIiwKICAiaWQiOiAiYTFiMmMyZDQtZTVmNi1nN2g4LWk5ajAta2wybTNuNG81cDYiLAogICJhaWQiOiAiMCIsCiAgIm5ldCI6ICJ3cyIsCiAgInR5cGUiOiAibm9uZSIsCiAgImhvc3QiOiAic2cxLnNlcnZlci5leGFtcGxlLmNvbSIsCiAgInBhdGgiOiAiL3YycmF5IiwKICAidGxzIjogInRscyIKfQ=="
     },
-    "vip": {
-      "Metfone": {
-        "VLESS": [
-          { "config": "vless://342abef4-0371-4056-f5de-d0207423924a@104.16.125.32:80?path=%2F&security=none&encryption=none&host=ultra.ovpn.space&type=ws#SG VIP CF" }
-        ]
-      },
-      "Smart Service": {
-        "VMESS": [
-          { "config": "vmess://VIP-GENERAL-SMART-VMESS-1..." }
-        ]
-      }
-    },
-    "gcp": {
-      "VLESS": [
-        { "config": "vless://36459fd0-0c89-4733-b20e-067ffc341bd2@firebaseremoteconfig.googleapis.com:443?path=%2FTG-%40Not_Ragnar&security=tls&encryption=none&host=htet-aung-mc666-435737282244.europe-west1.run.app&type=ws&sni=htet-aung-mc666-435737282244.europe-west1.run.app#GCP VIP" }
-      ],
-      "VLESS": [
-        { "config": "vless://36459fd0-0c89-4733-b20e-067ffc341bd2@firebaseremoteconfig.googleapis.com:443?path=%2F%40Cheaofficial&security=tls&encryption=none&host=cheaofficial-100927473356.asia-east2.run.app&type=ws&sni=cheaofficial-100927473356.asia-east2.run.app#GCP%20VIP" }
-      ],
-      "VMESS": [
-        { "config": "Sorry" }
-      ]
+    {
+      "name": "🇯🇵 Japan VMESS Server",
+      "config": "vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJKYXBhbiBWU0VTUyBTZXJ2ZXIiLAogICJhZGQiOiAianAxLnNlcnZlci5leGFtcGxlLmNvbSIsCiAgInBvcnQiOiAiNDQzIiwKICAiaWQiOiAiYjJjM2Q0ZTUtZjZnNy1oOGk5LWowaTEtazJsM200bjVvNnA3IiwKICAiYWlkIjogIjAiLAogICJuZXQiOiAid3MiLAogICJ0eXBlIjogIm5vbmUiLAogICJob3N0IjogImpwMS5zZXJ2ZXIuZXhhbXBsZS5jb20iLAogICJwYXRoIjogIi92MnJheSIsCiAgInRscyI6ICJ0bHMiCn0=="
     }
-  }
+  ],
+  "Vless": [
+    {
+      "name": "🇺🇸 USA VLESS Server",
+      "config": "vless://YzNkNGU1ZjYtZzdoOC1pOWowLWsxbDJtM240bzVwNnE3cjhAdXMyLnNlcnZlci5leGFtcGxlLmNvbTo0NDM/ZW5jcnlwdGlvbj1ub25lJnNlY3VyaXR5PXRscyZ0eXBlPXdzJmhvc3Q9dXMyLnNlcnZlci5leGFtcGxlLmNvbSZwYXRoPSUyRnZsZXNzI1VTQS1WTEVTUw=="
+    },
+    {
+      "name": "🇬🇧 UK VLESS Server",
+      "config": "vless://ZDRlNWY2ZzctaDhpOS1qMGsxLWwybTMtbjRvNXA2cTdyOHM5QHVrMS5zZXJ2ZXIuZXhhbXBsZS5jb206NDQzP3NuaT11azEuc2VydmVyLmV4YW1wbGUuY29tJnR5cGU9d3Mmc2VjdXJpdHk9dGxzJmhvc3Q9dWsxLnNlcnZlci5leGFtcGxlLmNvbSZwYXRoPSUyRnZsZXNzI1VLLVZMRVNT"
+    }
+  ],
+  "Trojan": [
+    {
+      "name": "🇩🇪 Germany Trojan Server",
+      "config": "trojan://ZDRlNWY2ZzctaDhpOS1qMGsxLWwybTMtbjRvNXA2cTdyOHM5QGRlMS5zZXJ2ZXIuZXhhbXBsZS5jb206NDQzP3NuaT1kZTEuc2VydmVyLmV4YW1wbGUuY29tI0dlcm1hbnktVHJvamFu"
+    }
+  ],
+  "Shadowsocks": [
+    {
+      "name": "🇦🇺 Australia SS Server",
+      "config": "ss://YWVzLTI1Ni1nY206cGFzc3dvcmRAYXUxLnNlcnZlci5leGFtcGxlLmNvbTo4NDQzI0F1c3RyYWxpYS1TUw=="
+    }
+  ]
 }
