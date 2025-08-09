@@ -22,13 +22,13 @@
   ],
   "Trojan": [
     {
-      "name": "🇩🇪 Germany Trojan Server",
+      "name": "មិនទាន់មាន Trojan",
       "config": "trojan://ZDRlNWY2ZzctaDhpOS1qMGsxLWwybTMtbjRvNXA2cTdyOHM5QGRlMS5zZXJ2ZXIuZXhhbXBsZS5jb206NDQzP3NuaT1kZTEuc2VydmVyLmV4YW1wbGUuY29tI0dlcm1hbnktVHJvamFu"
     }
   ],
   "Shadowsocks": [
     {
-      "name": "🇦🇺 Australia SS Server",
+      "name": "មិនទាន់មាន SS Server",
       "config": "ss://YWVzLTI1Ni1nY206cGFzc3dvcmRAYXUxLnNlcnZlci5leGFtcGxlLmNvbTo4NDQzI0F1c3RyYWxpYS1TUw=="
     }
   ]
