@@ -13,11 +13,11 @@
       "name": "🇹🇭 Thailand ប្រទេសថៃ - សាកល្បងដោយឥតគិតថ្លៃ",
       "config": "vless://f172f802-bcee-43f5-9252-e265b19c124b@104.16.125.32:80?path=%2F&security=none&encryption=none&host=metfone.com.kh.3.angkorssh.shop&type=ws#%F0%9F%87%B9%F0%9F%87%AD%20%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F%E1%9E%90%E1%9F%83%20-%20%E1%9E%9F%E1%9E%B6%E1%9E%80%E1%9E%9B%E1%9F%92%E1%9E%94%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99%E1%9E%A5%E1%9E%8F%E1%9E%82%E1%9E%B7%E1%9E%8F%E1%9E%90%E1%9F%92%E1%9E%9B%E1%9F%83"    },
     {
-      "name": "🇳🇱 ប្រទេសហូឡង់ - សាកល្បងដោយឥតគិតថ្លៃ",
+      "name": "🇳🇱 Netherlands ប្រទេសហូឡង់ - សាកល្បងដោយឥតគិតថ្លៃ",
       "config": "vless://41627b93-4faa-4179-a129-c350291df966@104.16.125.32:2096?path=%2F%3Fed%3D1024&security=tls&encryption=none&host=redfox.mahxray.news&fp=chrome&type=ws&sni=redfox.mahxray.news#%F0%9F%87%B3%F0%9F%87%B1%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F%E1%9E%A0%E1%9E%BC%E1%9E%A1%E1%9E%84%E1%9F%8B%20-%20%E1%9E%9F%E1%9E%B6%E1%9E%80%E1%9E%9B%E1%9F%92%E1%9E%94%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99%E1%9E%A5%E1%9E%8F%E1%9E%82%E1%9E%B7%E1%9E%8F%E1%9E%90%E1%9F%92%E1%9E%9B%E1%9F%83"
     },
     {
-      "name": "🇸🇪 ប្រទេសស៊ុយអែត - សាកល្បងដោយឥតគិតថ្លៃ",
+      "name": "🇸🇪 Sweden ប្រទេសស៊ុយអែត - សាកល្បងដោយឥតគិតថ្លៃ",
       "config": "vless://56497add-68ca-4500-b8e2-9f7003382bbe@104.16.125.32:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=rayan-fg-4.medicalhistory.filegear-sg.me&type=ws&sni=rayan-fg-4.medicalhistory.filegear-sg.me#%F0%9F%87%B8%F0%9F%87%AA%E1%9E%94%E1%9F%92%E1%9E%9A%E1%9E%91%E1%9F%81%E1%9E%9F%E1%9E%9F%E1%9F%8A%E1%9E%BB%E1%9E%99%E1%9E%A2%E1%9F%82%E1%9E%8F%20-%20%E1%9E%9F%E1%9E%B6%E1%9E%80%E1%9E%9B%E1%9F%92%E1%9E%94%E1%9E%84%E1%9E%8A%E1%9F%84%E1%9E%99%E1%9E%A5%E1%9E%8F%E1%9E%82%E1%9E%B7%E1%9E%8F%E1%9E%90%E1%9F%92%E1%9E%9B%E1%9F%83"    }
   ],
   "Trojan": [
